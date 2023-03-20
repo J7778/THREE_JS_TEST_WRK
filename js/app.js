@@ -172,7 +172,7 @@ function onWindowResize() {
 
 function animate() {
 
-    requestAnimationFrame(animate);
+    //requestAnimationFrame(animate);
 
     controls.update()
 
