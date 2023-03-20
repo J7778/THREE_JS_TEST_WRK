@@ -44,7 +44,7 @@ Light.shadow.radius = 3;
 scene.add(Light);
 
 new RGBELoader().load(
-  "/files/alps_field_1k.hdr",
+  "./files/alps_field_1k.hdr",
   function (texture) {
     texture.mapping = THREE.EquirectangularReflectionMapping;
     scene.background = texture;
@@ -54,7 +54,7 @@ new RGBELoader().load(
 
 const loader = new GLTFLoader();
 loader.load(
-  "/files/door.glb",
+  "./files/door.glb",
   function (gltf) {
     const model = gltf.scene;
     model.position.set(-2, -0.2, -2);
@@ -87,7 +87,7 @@ material = new THREE.MeshStandardMaterial({
 const texture = new THREE.TextureLoader();
 
 texture.load(
-  "/files/marble.jpg",
+  "./files/marble.jpg",
   function (map) {
     map.wrapS = THREE.RepeatWrapping;
     map.wrapT = THREE.RepeatWrapping;
@@ -98,7 +98,7 @@ texture.load(
   }
 );
 texture.load(
-  "/files/marble-bump.jpg",
+  "./files/marble-bump.jpg",
   function (map) {
     map.wrapS = THREE.RepeatWrapping;
     map.wrapT = THREE.RepeatWrapping;
