@@ -1,10 +1,10 @@
-import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.126.1/build/three.module.js";
+import * as THREE from "./js/three.module.js";
 
-import { GLTFLoader } from "https://cdn.jsdelivr.net/npm/three@0.126.1/examples/jsm/loaders/GLTFLoader.js";
+import { GLTFLoader } from "./js/GLTFLoader.js";
 
-import { RGBELoader } from "https://cdn.jsdelivr.net/npm/three@0.126.1/examples/jsm/loaders/RGBELoader.js";
+import { RGBELoader } from "./js/RGBELoader.js";
 
-import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.126.1/examples/jsm/controls/OrbitControls.js";
+import { OrbitControls } from "./js/OrbitControls.js";
 
 let camera, scene, renderer, Light, floorMat;
 
