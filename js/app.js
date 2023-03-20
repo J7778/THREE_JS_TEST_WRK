@@ -1,10 +1,10 @@
-import * as THREE from "./js/three.module.js";
+import * as THREE from "/js/three.module.js";
 
-import { GLTFLoader } from "./js/GLTFLoader.js";
+import { GLTFLoader } from "/js/GLTFLoader.js";
 
-import { RGBELoader } from "./js/RGBELoader.js";
+import { RGBELoader } from "/js/RGBELoader.js";
 
-import { OrbitControls } from "./js/OrbitControls.js";
+import { OrbitControls } from "/js/OrbitControls.js";
 
 let camera, scene, renderer, Light, floorMat;
 
